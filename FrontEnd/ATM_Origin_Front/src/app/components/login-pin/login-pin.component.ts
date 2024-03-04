@@ -40,16 +40,6 @@ export class LoginPinComponent implements OnInit {
         this.fourth.nativeElement.value = n;
       }
       this.position++;
-      console.log(
-        "position is " +
-          this.position +
-          " " +
-          "PIN is " +
-          this.first.nativeElement.value +
-          this.second.nativeElement.value +
-          this.third.nativeElement.value +
-          this.fourth.nativeElement.value
-      );
     }
   }
   back() {
@@ -67,16 +57,6 @@ export class LoginPinComponent implements OnInit {
       if (this.position === 4) {
         this.fourth.nativeElement.value = "";
       }
-      console.log(
-        "position is " +
-          this.position +
-          " " +
-          "PIN is " +
-          this.first.nativeElement.value +
-          this.second.nativeElement.value +
-          this.third.nativeElement.value +
-          this.fourth.nativeElement.value
-      );
     }
   }
 

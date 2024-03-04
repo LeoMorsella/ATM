@@ -34,7 +34,7 @@ export class TarjetaService {
   }
 
   registrarRetiro(retiro:Retiro): Observable<Retiro>{
-    return this.http.post<Retiro>(`${this.myAppUrl}${this.myApiUrl}RegistrarBalance`,retiro);
+    return this.http.post<Retiro>(`${this.myAppUrl}${this.myApiUrl}RegistrarRetiro`,retiro);
   }
 
 }

@@ -67,7 +67,13 @@ export class RetirosComponent implements OnInit {
       cantidad: this.first.nativeElement.value + this.second.nativeElement.value + this.third.nativeElement.value + this.fourth.nativeElement.value
     }
     this._tarjetaService.registrarRetiro(retiro).subscribe(data=> {
+      console.log(data);
+      this.irRetiro();
     })
+  }
+
+  irRetiro(){
+    this._router.navigate(['/balance/'+ this.id]);
   }
 
 }

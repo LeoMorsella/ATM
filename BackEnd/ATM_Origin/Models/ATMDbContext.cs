@@ -4,8 +4,12 @@ namespace ATM_Origin.Models
 {
     public class ATMDbContext:DbContext
     {
+        //Tools -> NuGet Package Administrator -> Console
+        //Add-Migration ATM_Origin
+        //Update-database
         public ATMDbContext(DbContextOptions<ATMDbContext> options): base(options) 
         {
+            //Ante la ejecucion inicial descomentar para la carga de datos iniciales dentro de la DB una vez ejecutado debera comentarse initData()
             //initData();
         }
 

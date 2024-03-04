@@ -84,28 +84,6 @@ export class LoginTarjetaComponent implements OnInit {
       }
       
       this.position++;
-      console.log(
-        "position is " +
-          this.position +
-          " " +
-          "Numero de Tarjeta es " +
-          this.first.nativeElement.value +
-          this.second.nativeElement.value +
-          this.third.nativeElement.value +
-          this.fourth.nativeElement.value +
-          this.fifth.nativeElement.value +
-          this.sixth.nativeElement.value +
-          this.seventh.nativeElement.value +
-          this.eighth.nativeElement.value +
-          this.ninth.nativeElement.value +
-          this.tenth.nativeElement.value +
-          this.eleventh.nativeElement.value +
-          this.twelfth.nativeElement.value +
-          this.thirteenth.nativeElement.value +
-          this.fouteenth.nativeElement.value +
-          this.fifteenth.nativeElement.value +
-          this.sixteenth.nativeElement.value 
-      );
     }
   }
   back() {
@@ -159,28 +137,6 @@ export class LoginTarjetaComponent implements OnInit {
       if (this.position === 16) {
         this.sixteenth.nativeElement.value = "";
       }
-      console.log(
-        "position is " +
-          this.position +
-          " " +
-          "Numero de Tarjeta is " +
-          this.first.nativeElement.value +
-          this.second.nativeElement.value +
-          this.third.nativeElement.value +
-          this.fourth.nativeElement.value +
-          this.fifth.nativeElement.value +
-          this.sixth.nativeElement.value +
-          this.seventh.nativeElement.value +
-          this.eighth.nativeElement.value +
-          this.ninth.nativeElement.value +
-          this.tenth.nativeElement.value +
-          this.eleventh.nativeElement.value +
-          this.twelfth.nativeElement.value +
-          this.thirteenth.nativeElement.value +
-          this.fouteenth.nativeElement.value +
-          this.fifteenth.nativeElement.value +
-          this.sixteenth.nativeElement.value 
-      );
     }
   }
 
