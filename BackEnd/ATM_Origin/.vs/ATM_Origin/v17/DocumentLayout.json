@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Datos\\2024\\Origin_Solutions\\ATM\\ATM\\BackEnd\\ATM_Origin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5950B17F-A321-43B0-AFC7-893C602A1EEC}|ATM_Origin.csproj|d:\\datos\\2024\\origin_solutions\\atm\\atm\\backend\\atm_origin\\controllers\\tarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5950B17F-A321-43B0-AFC7-893C602A1EEC}|ATM_Origin.csproj|solutionrelative:controllers\\tarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5950B17F-A321-43B0-AFC7-893C602A1EEC}|ATM_Origin.csproj|d:\\datos\\2024\\origin_solutions\\atm\\atm\\backend\\atm_origin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5950B17F-A321-43B0-AFC7-893C602A1EEC}|ATM_Origin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TarjetaController.cs",
+              "DocumentMoniker": "D:\\Datos\\2024\\Origin_Solutions\\ATM\\ATM\\BackEnd\\ATM_Origin\\Controllers\\TarjetaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarjetaController.cs",
+              "ToolTip": "D:\\Datos\\2024\\Origin_Solutions\\ATM\\ATM\\BackEnd\\ATM_Origin\\Controllers\\TarjetaController.cs",
+              "RelativeToolTip": "Controllers\\TarjetaController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwEoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T21:01:12.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Datos\\2024\\Origin_Solutions\\ATM\\ATM\\BackEnd\\ATM_Origin\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Datos\\2024\\Origin_Solutions\\ATM\\ATM\\BackEnd\\ATM_Origin\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T19:58:28.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

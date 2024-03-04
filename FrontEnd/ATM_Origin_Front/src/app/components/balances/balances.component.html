@@ -1,0 +1,13 @@
+<div class="title">
+    <h1>Balance Tarjeta</h1>
+</div>
+<div *ngIf="tarjeta != null">
+    <h1>Titular: {{ tarjeta.titular }}</h1>
+    <p>Numero de Tarjeta: {{ tarjeta.num_tarjeta }}</p>
+    <p>Disponible Actual: {{tarjeta.disponible}}</p>
+    <p>Fecha De Vencimiento: {{tarjeta.fecha_vencimiento}}</p>
+    <button (click)="volverMenu()" mat-raised-button>Volver</button>
+    <br>
+    <br>
+    <button routerLink="/login-tarjeta" mat-raised-button>Salir</button>
+</div>

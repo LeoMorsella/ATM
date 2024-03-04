@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "ATM_Origin.Controllers.TarjetaController",
+    "Method": "GetTarjeta",
+    "RelativePath": "api/Tarjeta/{id_tarjeta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_tarjeta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Origin.Controllers.TarjetaController",
+    "Method": "VerificarPIN",
+    "RelativePath": "api/Tarjeta/{num_tarjeta}/{PIN}/verificarPIN",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num_tarjeta",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "PIN",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Origin.Controllers.TarjetaController",
+    "Method": "verificarTarjeta",
+    "RelativePath": "api/Tarjeta/{numTarjeta}/verificarTarjeta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numTarjeta",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Origin.Controllers.TarjetaController",
+    "Method": "ActualizarDisponible",
+    "RelativePath": "api/Tarjeta/ActualizarDisponible",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_tarjeta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newDisponible",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Origin.Controllers.TarjetaController",
+    "Method": "registrarBalance",
+    "RelativePath": "api/Tarjeta/RegistrarBalance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "balance",
+        "Type": "ATM_Origin.Models.Balance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM_Origin.Controllers.TarjetaController",
+    "Method": "registrarRetiro",
+    "RelativePath": "api/Tarjeta/RegistrarRetiro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "retiro",
+        "Type": "ATM_Origin.Models.Retiro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,63 @@
+<div class="d-flex">
+    Introduzca numero de Tarjeta:
+    <div>
+      <table class="digits">
+        <tr>
+          <td><input type="number" #first maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #second maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #third maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #fourth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><input type="number" #fifth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #sixth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #seventh maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #eighth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><input type="number" #ninth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #tenth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #eleventh maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #twelfth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><input type="number" #thirteenth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #fouteenth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #fifteenth maxlength="1" required readonly placeholder="_" size="1"></td>
+          <td><input type="number" #sixteenth maxlength="1" required readonly placeholder="_" size="1"></td>
+
+        </tr>
+      </table>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <td (click)="enter(1)">1</td>
+          <td (click)="enter(2)">2</td>
+          <td (click)="enter(3)">3</td>
+        </tr>
+        <tr>
+          <td (click)="enter(4)">4</td>
+          <td (click)="enter(5)">5</td>
+          <td (click)="enter(6)">6</td>
+        </tr>
+        <tr>
+          <td (click)="enter(7)">7</td>
+          <td (click)="enter(8)">8</td>
+          <td (click)="enter(9)">9</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td (click)="enter(0)">0</td>
+          <td><button (click)="back()">Borrar</button></td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button (click)="verificarTarjeta()">Ingresar</button>
+    </div>
+  </div>
+  
